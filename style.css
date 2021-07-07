@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.social-media {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    font-size: 1.5rem;
+}
+.social-media a{
+   color: #4C4C6D;
+}
+.social-media div{
+    margin: 0 8px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    height: 400px;
+    margin: 60px auto 0 auto;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.caption{
+    width: 400px;
+}
+
+.data_container {
+    position: relative;
+    width: 300px;
+    font-family: 'Roboto', sans-serif;
+}
+.caption .title{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #4C4C6D;
+}
+.caption p {
+    width: 320px;
+    margin-top: 20px;
+    line-height: 23px;
+    color: #BEAEE2;
+    font-family: 'Roboto', sans-serif;
+}
+.caption .learn-more {
+    margin-top: 20px;
+}
+.caption .learn-more a{
+    color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px 25px;
+    text-decoration: none;
+    font-size: .8rem;
+}
+.caption form {
+    max-width: 330px;
+    margin-top: 50px;
+    position: relative;
+    
+}
+.caption input[type="text"]{
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    background-color: #F9F9F9;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.caption input[type="text"]:focus{
+    outline: none;
+}
+.caption button {
+    position: absolute;
+    padding: 10px 15px;
+    border: none;
+    background-color: #F9F9F9;
+    color: #BEAEE2;
+    right: 0;
+    font-size: 1rem;
+}
+.data_container .data {
+    max-width: 300px;
+    color: #4C4C6D;
+    padding-bottom: 20px;
+}
+.data_container .max-width {
+    width: 100%;
+}
+.data_container img {
+    width: 180px;
+    display: block;
+    margin: auto;
+}
+.data_container .temp {
+    font-size: 2rem;
+}
+.data_container .desc {
+    font-size: .9rem;
+    padding-left: 6px;
+}
+.data_container .name {
+    margin-top: 10px;
+    color: #BEAEE2;
+    font-size: 1.5rem;
+}
+.error-message{
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+@media (max-width: 739px){
+
+    .error-message{
+       margin-top: 100px;
+    }
+}
+@media (max-width: 320px){
+    
+    .data, .caption{
+        width: 100%;
+    }
+}
