@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weather Data">
+    <meta name="keywords" content="Weather City">
+    <meta name="author" content="Lehi Bonafe">
+    <title>Weather City</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="caption">
+            <span class="title">Weather City</span>
+            <p>
+                A simple and light weather data that you
+                can search right away.
+            </p>
+
+            <form action="">
+                <input class="inputCity" type="text" placeholder="Enter a city">
+                <button class="btn" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
+        </div>
+        <div class="data_container">
+            <div class="data">
+                <img class="icon" src="" alt="icon">
+                <div class="max-width">
+                    <span class="temp">&#8451;</span> <sup class="desc"></sup>
+                </div>
+                <div>
+                    <p class="name">London</p>
+                </div>
+            </div>
+
+            <div class="error-message">
+                <h2 class="error">No Data Found</h2>
+            </div> 
+        </div>
+    </div>
+
+    <div class="social-media">
+        <div>
+            <a href="https://github.com/lehibonafe/weather_city" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+        <div>
+            <a href="https://lehibonafe.github.io/" target="_blank"><i class="fas fa-rocket"></i></a>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
