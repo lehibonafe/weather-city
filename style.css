@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #343A40;
+    background-color: #4C4C6D;
 }
 .social-media {
     position: fixed;
@@ -16,6 +16,9 @@ body {
 .social-media a{
    color: #7952B3;
 }
+.social-media :hover{
+    color: #B8DFD8;
+ }
 .social-media div{
     margin: 0 8px;
 }
@@ -28,7 +31,7 @@ body {
     margin: 60px auto 0 auto;
     padding: 20px;
     flex-wrap: wrap;
-    background: #343A40;
+    background: #4C4C6D;
 }
 .caption{
     width: 400px;
@@ -42,13 +45,13 @@ body {
 .caption .title{
     font-size: 3.5rem;
     font-weight: bold;
-    color: #7952B3;
+    color: #B8DFD8;
 }
 .caption p {
     width: 320px;
     margin-top: 20px;
     line-height: 23px;
-    color: #BEAEE2;
+    color: #E8F6EF;
     font-family: 'Roboto', sans-serif;
 }
 .caption .learn-more {
@@ -75,6 +78,7 @@ body {
     background-color: #F9F9F9;
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
+    color: #4C4C6D;
 }
 .caption input[type="text"]:focus{
     outline: none;
@@ -84,7 +88,7 @@ body {
     padding: 10px 15px;
     border: none;
     background-color: #F9F9F9;
-    color: #BEAEE2;
+    color: #4C4C6D;
     right: 0;
     font-size: 1rem;
 }
@@ -110,8 +114,8 @@ body {
 }
 .data_container .name {
     margin-top: 10px;
-    color: #BEAEE2;
-    font-size: 1.3rem;
+    color: #FFE194;
+    font-size: 1.1rem;
 }
 .error-message{
     position: absolute;
