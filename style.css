@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #f2fdff;
+  background-color: #fbf9f1;
 }
 .social-media {
   position: fixed;
@@ -31,7 +31,7 @@ body {
   margin: 60px auto 0 auto;
   padding: 20px;
   flex-wrap: wrap;
-  background: #f2fdff;
+  background: #fbf9f1;
 }
 .caption {
   width: 400px;
@@ -51,7 +51,7 @@ body {
   width: 320px;
   margin-top: 20px;
   line-height: 23px;
-  color: #92c7cf;
+  color: #2e282a;
   font-family: "Roboto", sans-serif;
 }
 .caption .learn-more {
